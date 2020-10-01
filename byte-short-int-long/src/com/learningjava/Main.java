@@ -36,5 +36,9 @@ public class Main {
         // short occupies 16 bits (width of 16).
         // integer occupies 32 bits (width of 32).
         // long occupies 64 bits (width of 64).
+
+        // type casting example (integer will be assumed automatically unless specified)
+        // always use integer unless good reason not to
+        byte myNewByteValue = (byte)(myMinByteValue / 2);
     }
 }
